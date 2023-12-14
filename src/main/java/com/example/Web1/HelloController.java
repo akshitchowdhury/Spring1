@@ -6,9 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/")
+    @GetMapping("/Web1")
     public String index() {
-        return "Running Fine";
+        return "Running Fine on the other port";
     }
+
+
 
 }
